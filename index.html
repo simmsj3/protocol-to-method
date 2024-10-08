@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Protocol to Methods: Spider Plant Experiment</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        .slide {
+            height: 100vh;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+        .active {
+            display: flex;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            color: #2c3e50;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            color: #34495e;
+        }
+        ul {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .example {
+            font-style: italic;
+            color: #27ae60;
+            margin-top: 5px;
+        }
+        .nav-buttons {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        .nav-button, .reveal-button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .quiz {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .quiz-options {
+            margin-top: 10px;
+        }
+        .quiz-answer {
+            font-weight: bold;
+            color: #2980b9;
+            display: none;
+        }
+        .definition {
+            background-color: #e8f4f8;
+            border-left: 5px solid #3498db;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide active">
+        <h1>From Protocol to Methods: Spider Plant Experiment</h1>
+        <h2>A Guide for Biochemistry Students</h2>
+        <p>Converting Your Spider Plant and Jiffy Pellet Experiment Protocol into a Scientific Methods Section</p>
+    </div>
+
+    <div class="slide">
+        <h2>1. Use Third-Person Past Tense</h2>
+        <div class="definition">
+            <h3>What is Third-Person Past Tense?</h3>
+            <p><strong>Definition:</strong> Third-person past tense refers to a writing style that describes actions or events that have already occurred, using pronouns such as "it," "he," "she," "they," or the names of people or things, rather than "I" or "we."</p>
+            <p><strong>Guidance:</strong></p>
+            <ul>
+                <li>Use "was" or "were" instead of "is" or "are"</li>
+                <li>Avoid personal pronouns like "I," "we," or "you"</li>
+                <li>Focus on what happened, not who did it</li>
+                <li>Use passive voice when the doer of the action is not important</li>
+            </ul>
+        </div>
+        <ul>
+            <li>Examples:</li>
+            <li class="example">"The experiment was conducted..." (not "We conducted...")</li>
+            <li class="example">"Spider plant cuttings were planted..." (not "Plant the cuttings...")</li>
+            <li class="example">"Data were analyzed..." (not "Analyze the data...")</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>Quiz: Question 1</h2>
+        <div class="quiz">
+            <p>Which sentence is correct for a methods section?</p>
+            <div class="quiz-options">
+                <p>A) We watered the plants daily.</p>
+                <p>B) The plants were watered daily.</p>
+                <p>C) Water the plants daily.</p>
+                <p>D) Plants are watered daily.</p>
+                <p>E) I ensured the plants were watered daily.</p>
+            </div>
+            <button class="reveal-button" onclick="revealAnswer(this)">Reveal Answer</button>
+            <p class="quiz-answer">Correct answer: B) The plants were watered daily.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>Quiz: Question 2</h2>
+        <div class="quiz">
+            <p>Choose the correct sentence for describing measurements:</p>
+            <div class="quiz-options">
+                <p>A) Measure the leaf length weekly.</p>
+                <p>B) Leaf length was measured weekly.</p>
+                <p>C) We measured the leaf length every week.</p>
+                <p>D) The researcher measures leaf length on a weekly basis.</p>
+                <p>E) You should measure leaf length each week.</p>
+            </div>
+            <button class="reveal-button" onclick="revealAnswer(this)">Reveal Answer</button>
+            <p class="quiz-answer">Correct answer: B) Leaf length was measured weekly.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>Quiz: Question 3</h2>
+        <div class="quiz">
+            <p>Which is the appropriate way to describe the experimental setup?</p>
+            <div class="quiz-options">
+                <p>A) We set up the experiment in a greenhouse.</p>
+                <p>B) The experiment was set up in a greenhouse.</p>
+                <p>C) Set up the experiment in a greenhouse.</p>
+                <p>D) The experiment is being set up in a greenhouse.</p>
+                <p>E) You should set up the experiment in a greenhouse.</p>
+            </div>
+            <button class="reveal-button" onclick="revealAnswer(this)">Reveal Answer</button>
+            <p class="quiz-answer">Correct answer: B) The experiment was set up in a greenhouse.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>Quiz: Question 4</h2>
+        <div class="quiz">
+            <p>Select the sentence that uses the correct tense for data analysis:</p>
+            <div class="quiz-options">
+                <p>A) Analyze the data using SPSS software.</p>
+                <p>B) The data were analyzed using SPSS software.</p>
+                <p>C) We analyzed the data using SPSS software.</p>
+                <p>D) The data are analyzed using SPSS software.</p>
+                <p>E) I analyzed the data using SPSS software.</p>
+            </div>
+            <button class="reveal-button" onclick="revealAnswer(this)">Reveal Answer</button>
+            <p class="quiz-answer">Correct answer: B) The data were analyzed using SPSS software.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>Quiz: Question 5</h2>
+        <div class="quiz">
+            <p>Which sentence is appropriate for describing solution preparation in a methods section?</p>
+            <div class="quiz-options">
+                <p>A) I prepared the nutrient solution according to the manufacturer's instructions.</p>
+                <p>B) The nutrient solution was prepared according to the manufacturer's instructions.</p>
+                <p>C) Prepare the nutrient solution as per the manufacturer's guidelines.</p>
+                <p>D) We are preparing the nutrient solution as instructed by the manufacturer.</p>
+                <p>E) You prepare the nutrient solution following the manufacturer's instructions.</p>
+            </div>
+            <button class="reveal-button" onclick="revealAnswer(this)">Reveal Answer</button>
+            <p class="quiz-answer">Correct answer: B) The nutrient solution was prepared according to the manufacturer's instructions.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <h2>2. Materials and Equipment</h2>
+        <ul>
+            <li>List all necessary items, chemicals, and instruments</li>
+            <li>Use passive voice</li>
+            <li class="example">Example: "A 250mL beaker was used for solution preparation."</li>
+            <li class="example">Example: "Chlorophytum comosum (spider plant) cuttings and Jiffy-7 peat pellets were utilized in this experiment."</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>3. Experimental Setup</h2>
+        <ul>
+            <li>Explain how equipment was arranged or prepared</li>
+            <li>Describe the overall experimental design</li>
+            <li class="example">Example: "The experiment was set up in a controlled environment chamber. Jiffy pellets were arranged in trays under LED grow lights."</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>4. Procedure</h2>
+        <ul>
+            <li>Convert protocol steps into paragraphs</li>
+            <li>Group related steps together</li>
+            <li>Include any controls or repetitions</li>
+            <li class="example">Example: "Spider plant cuttings were inserted into pre-moistened Jiffy pellets. The trays were placed under LED grow lights set to a 16/8 hour light/dark cycle. Plants were watered daily with 50mL of distilled water per pellet. This procedure was repeated for three separate batches to ensure reproducibility."</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>5. Data Collection Methods</h2>
+        <ul>
+            <li>Describe what data was recorded and how</li>
+            <li>Include frequency and methods of measurement</li>
+            <li class="example">Example: "Plant height was measured weekly using a ruler. The number of new leaves was counted every three days. Root emergence was monitored daily and recorded as present or absent."</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>6. Data Analysis Techniques</h2>
+        <ul>
+            <li>Mention statistical tests or calculations performed</li>
+            <li>Include software used for analysis</li>
+            <li class="example">Example: "Growth rates were calculated using linear regression. A one-way ANOVA was performed to compare growth rates between different light intensities. All statistical analyses were conducted using R (version 4.1.2)."</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>7. Safety and Ethical Considerations</h2>
+        <ul>
+            <li>Note any safety precautions taken</li>
+            <li>Mention any ethical approvals obtained</li>
+            <li class="example">Example: "All plant waste was autoclaved before disposal to prevent environmental contamination. The experimental protocol was approved by the institutional biosafety committee (approval number: BSC-2023-045)."</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>Final Tips</h2>
+        <ul>
+            <li>Ensure all steps are written in third-person past tense</li>
+            <li>Provide enough detail for experiment replication</li>
+            <li>Maintain a logical flow throughout the methods section</li>
+            <li>Proofread carefully to eliminate errors and improve clarity</li>
+        </ul>
+    </div>
+
+    <div class="nav-buttons">
+        <button class="nav-button" id="prevBtn">Previous</button>
+        <button class="nav-button" id="nextBtn">Next</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        document.getElementById('prevBtn').addEventListener('click', () => showSlide(currentSlide - 1));
+        document.getElementById('nextBtn').addEventListener('click', () => showSlide(currentSlide + 1));
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') showSlide(currentSlide - 1);
+            if (e.key === 'ArrowRight') showSlide(currentSlide + 1);
+        });
+
+        function revealAnswer(button) {
+            button.nextElementSibling.style.display = 'block';
+            button.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
